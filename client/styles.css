@@ -1,0 +1,196 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+        margin: 0;
+        padding: 0; 
+        outline: none;
+        height:100%;
+        width:100%;
+        border: 0;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0; 
+    outline: none;
+    border: 0;
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: 'CeraPro';
+    src: url('fonts/CeraPro-Thin.woff2') format('woff2'),
+    url('fonts/CeraPro-Thin.woff') format('woff'),
+    url('fonts/CeraPro-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'abrilFatface';
+    src: url('fonts/AbrilFatface-Regular.woff2') format('woff2'),
+    
+    url('fonts/AbrilFatface-Regular.ttf') format('woff'),
+
+    url('fonts/Carpenter_script.ttf')
+    format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "carpenterScript";
+    src: url('fonts/CarpenterScript.woff2') format('woff2'),
+    
+    url('fonts/CarpenterScript.woff') format('woff'),
+
+    url('fonts/Carpenter_script.ttf')
+    format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder
+}
+
+#title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-family: "carpenterScript";
+    font-size: 60px;
+    background: -webkit-linear-gradient(#ec2685, #eb84bb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* padding-top: 0%;
+    padding-bottom: 0%; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+width: 100vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: fixed;
+/* background-color: rgba(211,211,211,.5) */
+}
+
+.topnavbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 5%;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.navbarlinks {
+    size: 20px;
+    color:black;
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    font-family: 'CeraPro';
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#section1 {
+    height: 100vh;
+    width: 100vw;
+    display:block;
+    background-size: cover;
+    background-image: url(images/IMG_3346.JPEG);
+}
+
+#section2 {
+    height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    background-position: center;
+    background-image: url(images/IMG_4134.JPEG);
+    display: inline-block;
+}
+
+#section3 {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#4E4334, #282940);
+    display: inline-block;
+}
+
+#section4 {
+    height: 100vh;
+    width: 100vw;
+    background: cyan;
+    display: inline-block;
+}
+
+#section5 {
+    height: 100vh;
+    width: 100vw;
+    background: purple;
+    display: inline-block;
+}
+
+#section6 {
+    height: 100vh;
+    width: 100vw;
+    background: palegreen;
+    display: inline-block;
+}
+
+#aboutpnk {
+display: flex;
+justify-content: center;
+background: #eb84bb;
+box-shadow: 5px 5px 46px 1px #EC2685;
+border-radius: 30px;
+height: 450px;
+width: 450px;
+position:relative; 
+left: 70%; 
+top: 30%;
+}
+
+#abouttext {
+font-family: 'CeraPro';
+font-size: x-large;
+font-weight: bolder;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+/* .socialicons {
+    scale: 18%;
+    position: relative;
+    left: -48%; 
+    top: -40%;
+    margin: 0;
+    padding:0;
+} */
