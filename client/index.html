@@ -15,41 +15,63 @@
     <link rel="stylesheet" href="/css">
 
 </head>
+
 <body id="main">
-    <header>
+    
+<header>
+    <div id="topsection">
+            <a id="instapic" class="socialicons"
+            href="https://www.instagram.com/pnk.flamingo.rva/">
+            <img src="images/instalogo.png" height="50" width="50">
+            </a>
+            
             <h1 id="title">
                 Pnk Flamingo
-                <!-- <a class="socialicons" href="https://www.instagram.com/pnk.flamingo.rva/">
-                    <img id="insta" src="images/iconmonstr-instagram-15-240.png"> 
-                </a> -->
             </h1>
-                <ul class="topnavbar">
+            
+            <a id="distropic" class="socialicons"
+            href="https://distrokid.com/hyperfollow/pnkflamingo/pnkville">
+            <img src="images/distrologo.png" height="50" width="50">
+            </a>
+    </div>
+    <div id="menu1">
+        <input type="checkbox" id="menyAvPaa">
+        <label id="burger" for="menyAvPaa">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+      <nav id="meny">
+        <ul class="topnavbar">
                     
-                    <li class="navbarlinks"><a href="#section1">HOME</a></li>
-                    
-                    <li class="navbarlinks"><a href="#section2">ABOUT</a></li>
-                    
-                    
-                    
-                    <li class="navbarlinks"><a href="#section3">GALLERY</a></li>
-                    
-                    
-                    
-                    <li class="navbarlinks"><a href="#section4">NEWS</a></li>
-                    
-                    
-                    
-                    <li class="navbarlinks"><a href="#section5">MUSIC</a></li>
-                    
-                    
-                    
-                    <li class="navbarlinks"><a href="#section6">CONTACT</a></li>
-                
-                </ul>
-    </header>
+            <li class="navbarlinks"><a href="#section1">HOME</a></li>
+            
+            <li class="navbarlinks"><a href="#section2">ABOUT</a></li>
+            
+            
+            
+            <li class="navbarlinks"><a href="#section3">GALLERY</a></li>
+            
+            
+            
+            <li class="navbarlinks"><a href="#section4">NEWS</a></li>
+            
+            
+            
+            <li class="navbarlinks"><a href="#section5">MUSIC</a></li>
+            
+            
+            
+            <li class="navbarlinks"><a href="#section6">CONTACT</a></li>
+        
+        </ul>
+      </nav>
+    </div>
+
+</header>
 
     <div id="section1">
-
+        
     </div>
 
     <div  id="section2">
@@ -60,20 +82,64 @@
     </div>
             
     <div  id="section3">
-        <h1>section3</h1>
+        <div class="gallery cf">
+            <div>
+              <img src="images/IMG_3328.JPEG" />
+            </div>
+            <div>
+              <img src="images/IMG_3337.JPEG" />
+            </div>
+            <div>
+              <img src="images/IMG_6249.JPEG" />
+            </div>
+            <div>
+              <img src="images/IMG_3361.JPEG" />
+            </div>
+            <div>
+              <img src="images/IMG_3363.JPEG" />
+            </div>
+            <div>
+              <img src="images/IMG_6256.JPEG" />
+            </div>
+          </div>
     </div>
 
     <div  id="section4">
-        <h1>Section4</h1>
+        <div id="newsarticles" class="newssection">
+            <article class="articles">
+                <h2>October 2022</h2>
+                    <p>New Album is out, Pnkville!</p>
+                    <img class="articleimgs" src="images/albumcover.png">
+            </article>
+        </div>
+        <button id="newsbutton">Show more news</button>
     </div>
 
     <div  id="section5">
-        <h1>Section5</h1>
+        <!-- <iframe class="players" id="spotplayer" style="border-radius:12px;" src="https://open.spotify.com/embed/album/4e32BaXHnGhFngt70yeZsE?utm_source=generator" width="700px" height="450" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <iframe class="players" id="appleplayer" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width: 700px;;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/black-santa-the-sunset-killer/1468733367"></iframe> -->
+
     </div>
 
-    <div  id="section6">
-        <h1>Section6</h1>
-    </div>
+        <div  id="section6">
+
+            <p id="emailus">You can contact us at pnkflamingorva@gmail.com, or send us a message below.</p>
+        
+            <form id ="contactform">
+                    <input id="emailText" type="text" class="forms" placeholder="Your email here."/>
+                <br>
+                    <textarea id="messageText" type="text" class="forms"
+                    rows="5" cols="33" placeholder="Your message here."></textarea>
+                <br>
+                    <input id="msgsubmit" type="submit"/>
+            </form>
+        
+        </div>
+<footer id="footer">
+    <div id="copyright" align="center">&copy;Pnk Flamingo 2022 - All rights Reserved.</div>
+
+</footer>
     
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="/js"></script>
